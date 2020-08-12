@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample DataProvider Suite">
+	<test name="Parameter Test">
+	    
+	    <parameter name="username" value="ravikone"/>
+	   	<parameter name="password" value="ravi123"/>
+	   
+		<classes>
+			<class name="com.dataprovider.test.ParameterExample" />
+		</classes>
+		
+	</test>
+</suite> 
