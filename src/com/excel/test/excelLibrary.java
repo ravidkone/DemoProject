@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -14,7 +15,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class excelLibrary {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InvalidFormatException {
 		
 		//readExcel();
 		writeExcel();
@@ -22,7 +23,7 @@ public class excelLibrary {
 		
 	}
 
-	private static void writeExcel() {
+	private static void writeExcel() throws InvalidFormatException {
 		String sPath="/Users/ravi.kone/Documents/Ravi Kone/Ravi 247 Docs/RAVI (2)/RAVI/Selenium/java progs/DemoProject/testdata.xlsx";
 
 		try {
@@ -52,7 +53,7 @@ public class excelLibrary {
 		
 	}
 
-	private static void readExcel() {
+	private static void readExcel() throws InvalidFormatException {
 String sPath="/Users/ravi.kone/Documents/Ravi Kone/Ravi 247 Docs/RAVI (2)/RAVI/Selenium/java progs/DemoProject/testdata.xlsx";
 		
 		try {

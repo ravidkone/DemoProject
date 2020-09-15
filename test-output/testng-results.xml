@@ -1,17 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="120" started-at="2020-07-11T13:21:20 IST" finished-at="2020-07-11T13:21:20 IST">
+  <suite name="Default suite" duration-ms="183" started-at="2020-08-31T02:29:34Z" finished-at="2020-08-31T02:29:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="120" started-at="2020-07-11T13:21:20 IST" finished-at="2020-07-11T13:21:20 IST">
-      <class name="com.pgrm.practice.RunTimePoly">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.pgrm.practice.RunTimePoly@4f970963]" name="test" duration-ms="17" started-at="2020-07-11T13:21:20 IST" finished-at="2020-07-11T13:21:20 IST">
+    <test name="Default test" duration-ms="183" started-at="2020-08-31T02:29:34Z" finished-at="2020-08-31T02:29:35Z">
+      <class name="com.dataprovider.DataproviderExample">
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataproviderExample@7921b0a2]" name="setData" duration-ms="28" started-at="2020-08-31T07:59:34Z" data-provider="getData" finished-at="2020-08-31T07:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.pgrm.practice.RunTimePoly -->
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataproviderExample@7921b0a2]" name="setData" duration-ms="8" started-at="2020-08-31T07:59:34Z" data-provider="getData" finished-at="2020-08-31T07:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataproviderExample@7921b0a2]" name="setData" duration-ms="4" started-at="2020-08-31T07:59:34Z" data-provider="getData" finished-at="2020-08-31T07:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData1(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataproviderExample@7921b0a2]" name="setData1" duration-ms="0" started-at="2020-08-31T07:59:34Z" data-provider="ravi" finished-at="2020-08-31T07:59:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData1 -->
+        <test-method status="PASS" signature="setData1(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataproviderExample@7921b0a2]" name="setData1" duration-ms="15" started-at="2020-08-31T07:59:35Z" data-provider="ravi" finished-at="2020-08-31T07:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData1 -->
+        <test-method status="PASS" signature="setData1(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataproviderExample@7921b0a2]" name="setData1" duration-ms="12" started-at="2020-08-31T07:59:35Z" data-provider="ravi" finished-at="2020-08-31T07:59:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user31]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData1 -->
+      </class> <!-- com.dataprovider.DataproviderExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

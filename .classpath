@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="com/dataprovider/test/" kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/Cowrks Project/demo_Programs/DemoProject/Jar Files/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="E:/Cowrks Project/demo_Programs/DemoProject/Jar Files/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="E:/Cowrks Project/demo_Programs/DemoProject/Jar Files/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="E:/Cowrks Project/demo_Programs/DemoProject/Jar Files/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="E:/Cowrks Project/demo_Programs/DemoProject/Jar Files/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="E:/Cowrks Project/demo_Programs/DemoProject/Jar Files/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

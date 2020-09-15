@@ -24,7 +24,7 @@ public class SortArray {
 			}
 		}
 		System.out.println(Arrays.toString(a));
-		System.out.println("using for loop");
+		System.out.println("print using for loop");
 		for(int i=0; i<count-1;i++) {
 			System.out.print(a[i]+", ");
 		}

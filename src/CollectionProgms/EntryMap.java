@@ -35,6 +35,10 @@ public class EntryMap {
         	Entry<Integer, String> me = (Entry<Integer, String>) itr.next();
             System.out.println("Key is " + me.getKey() + " Value is " + me.getValue());
         }
+        
+        
+        
+        
         System.out.println("For Loop:");
         for(Entry<Integer, String> me2: hm.entrySet()) {
             System.out.println("Key is: " + me2.getKey() + " Value is: " + me2.getValue());

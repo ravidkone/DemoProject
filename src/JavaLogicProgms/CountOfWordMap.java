@@ -8,7 +8,7 @@ public class CountOfWordMap {
 	    public static void main(String[] args) {
 
 	    	//count of words
-	    	String str = "This this is is done by Saket Saket";
+	    	String str = "This This is is done by Saket Saket";
 	        String[] split = str.split(" ");
 	        HashMap<String,Integer> map = new HashMap<String,Integer>();
 	        System.out.println("lenth is: "+split.length);
